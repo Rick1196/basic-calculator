@@ -26,10 +26,40 @@
   </style>
 </head>
 
-<body class="theme-three">
+<body id="body">
   <section class="container">
+    <section class="header">
+      <div class="title">
+        Calc
+      </div>
+      <div class="theme-toggler-container">
+        <div class="theme-toggler-title">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+        </div>
+        <div class="theme-toggler">
+          <label class="theme-check">
+            <input onChange="toggleChange('theme-one')" id="first" name="toggle-state" type="radio" checked />
+            <span class="checkmark"></span>
+          </label>
+        
+          <label class="theme-check">
+            <input  onChange="toggleChange('theme-two')" id="second" name="toggle-state" type="radio" />
+            <span class="checkmark"></span>
+          </label>
+        
+          <label class="theme-check">
+            <input  onChange="toggleChange('theme-three')" id="third" name="toggle-state" type="radio" />
+            <span class="checkmark"></span>
+          </label>
+        </div>
+      </div>
+    </section>
     <section class="screen">
-      <div>399</div>
+      <div class="input">
+        1233333333
+      </div>
     </section>
     <section class="buttons-pad">
       <button class="base-button number">7</button>
