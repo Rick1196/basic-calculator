@@ -36,7 +36,8 @@
     --grayish-key:  hsl(30, 25%, 89%);
     --grayish-key-shadow:  hsl(28, 16%, 65%);
     --vary-dark:  hsl(221, 14%, 31%);
-    --white: #fff
+    --white: #fff;
+    --toggler-background: hsl(223, 31%, 20%);
 }
 
 .theme-two{
@@ -79,16 +80,7 @@
      --grayish-key-shadow:  hsl(28, 16%, 65%);
      --vary-dark:  hsl(221, 14%, 31%);
      --white: #fff
-
-
-    --key-background: hsl(185, 58%, 25%);
-    --key-shadow: hsl(25, 98%, 40%);
-    --red-key: hsl(25, 99%, 27%);
-    --red-key-shadow:   hsl(25, 99%, 27%);
-    --grayish-key:  hsl(45, 7%, 89%);
-    --grayish-key-shadow:  hsl(35, 11%, 61%);
-    --vary-dark: hsl(60, 10%, 19%);
-    --white: #fff;
+    --toggler-background: hsl(0, 5%, 81%);
 }
 
 .theme-three{
@@ -130,5 +122,6 @@
   --grayish-key:  hsl(30, 25%, 89%);
   --grayish-key-shadow:  hsl(28, 16%, 65%);
   --vary-dark:  hsl(221, 14%, 31%);
+  --toggler-background: hsl(268, 71%, 12%);
 
 }
