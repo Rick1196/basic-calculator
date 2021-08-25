@@ -45,6 +45,9 @@
     border-radius: 5px;
     border: none;
 }
+button:active {
+    border: 2px solid;
+}
 .number {
     color: var(--numbers-color);
     background-color: var(--numbers-background);
@@ -143,4 +146,5 @@
 footer {
     margin-top: 20px;
     color: var(--del-color);
+    padding: 5px;
 }

@@ -57,33 +57,33 @@
       </div>
     </section>
     <section class="screen">
-      <div class="input">
+      <div class="input" id="screen-value">
         1233333333
       </div>
     </section>
     <section class="buttons-pad">
-      <button class="base-button number">7</button>
-      <button class="base-button number">8</button>
-      <button class="base-button number">9</button>
-      <button class="base-button del">DEL</button>
+      <button class="base-button number" onClick="concatValue('7')">7</button>
+      <button class="base-button number" onClick="concatValue('8')">8</button>
+      <button class="base-button number" onClick="concatValue('9')">9</button>
+      <button class="base-button del" onClick="del()">DEL</button>
   
-      <button class="base-button number">4</button>
-      <button class="base-button number">5</button>
-      <button class="base-button number">6</button>
-      <button class="base-button sign">+</button>
+      <button class="base-button number" onClick="concatValue('4')">4</button>
+      <button class="base-button number" onClick="concatValue('5')">5</button>
+      <button class="base-button number" onClick="concatValue('6')">6</button>
+      <button class="base-button sign" onClick="actions('+')">+</button>
   
-      <button class="base-button number">1</button>
-      <button class="base-button number">2</button>
-      <button class="base-button number">3</button>
-      <button class="base-button sign">-</button>
+      <button class="base-button number" onClick="concatValue('1')">1</button>
+      <button class="base-button number" onClick="concatValue('2')">2</button>
+      <button class="base-button number" onClick="concatValue('3')">3</button>
+      <button class="base-button sign" onClick="actions('-')">-</button>
   
-      <button class="base-button sign">.</button>
-      <button class="base-button number">0</button>
-      <button class="base-button sign">/</button>
-      <button class="base-button sign">x</button>
+      <button class="base-button sign" onClick="concatValue('.')">.</button>
+      <button class="base-button number" onClick="concatValue('0')">0</button>
+      <button class="base-button sign" onClick="actions('/')">/</button>
+      <button class="base-button sign" onClick="actions('*')">x</button>
   
-      <button class="base-button large reset">RESET</button>
-      <button class="base-button large equal">=</button>
+      <button class="base-button large reset" onClick="resetScreenValue()">RESET</button>
+      <button class="base-button large equal" onClick="actions('=')">=</button>
     </section>
   </section>
   <footer class="attribution">
