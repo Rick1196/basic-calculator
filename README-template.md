@@ -100,14 +100,22 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Ricardo Perez](https://github.com/Rick1196)
+- Frontend Mentor - [@Rick1196](https://www.frontendmentor.io/profile/Rick1196)
+- Twitter - [@ricardo111196](https://twitter.com/ricardo111196)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+## Run this project locally
+Install gulp cli
+```
+  npm install --global gulp-cli
+```
 
-## Acknowledgments
+Install dependencies
+```
+  npm install
+```
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+## Tech stack
+- Vanilla js
+- SASS
+- Gulp
